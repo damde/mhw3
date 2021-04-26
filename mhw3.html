@@ -1,0 +1,65 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="mhw1.css">
+    <link rel="stylesheet" href="mhw2.css">
+    <script defer src="./contents.js"></script>
+    <script defer src="./script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#">La nostra storia</a>
+            <a href="#">Prenota ora</a>
+            <a href="#">Area utenti</a>
+        </nav>
+        <div class="texts">
+            <div class="stars">
+                <img src="./star.png" alt="">
+                <img src="./star.png" alt="">
+                <img src="./star.png" alt="">
+                <img src="./star.png" alt="">
+                <img src="./star.png" alt="">
+            </div>
+            <h1>HotelNUMBERS</h1>
+            <h3>La prima e unica catena d'hotel alla portata di click!</h3>
+        </div>
+    </header>
+
+    <div class="column">
+        <div class="hidden" id="favorites">
+            <h2>Preferiti</h2>
+            <section class="verticalCards">
+
+            </section>
+        </div>
+
+        <div>
+            <h2>Ricerca</h2>
+            <form action="#" id="search">
+                <label for="text">Inserisci una parola chiave:</label>
+                <input type="text" name="text">
+                <label for="stars">Seleziona il numero di stelle:</label>
+                <select name="stars" id="stars">
+                    <option value=1>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                    <option value=5>5</option>
+                </select>
+
+                <input type="submit" value="Cerca">
+            </form>
+            <section class="showroom">
+                <div class="verticalCards" id="products">
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <h4>
+            MHW3 - Desantis Damiano O46002183 WEB PROGRAMMING A - L
+        </h4>
+    </footer>
+</body>

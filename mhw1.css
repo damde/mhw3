@@ -1,0 +1,158 @@
+body{
+    background-color: #efefef;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto Slab', serif;
+  color: #bf8d1d;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #827060;
+}
+
+header {
+  background: url(nyc.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  text-align: center;
+  z-index: 1;
+  align-items: center;
+}
+
+header .texts {
+  display: inline;
+  background-color: white;
+  color: #bf8d1d;
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+  text-align: justify;
+}
+
+header .stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 45px;
+  border-bottom: 1px solid #e7e7e8;
+}
+
+.navbar a {
+  color: white;
+  padding: 9px 17px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  font-size: 24;
+  background-color: rgba(205, 205, 205, 0.3);
+  text-decoration: underline;
+}
+
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.verticalCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.verticalCards .card {
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid #bf8d1d;
+}
+
+.verticalCards .card .image img {
+  height: 256;
+}
+
+.verticalCards .card .text {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+#services .card {
+  display: flex;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid #bf8d1d;
+  max-width: 100%;
+  position: relative;
+}
+
+
+#services .card .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#services .card .image img {
+    height: 256;
+    
+}
+
+#services .card .text {
+    padding: 15px;
+}
+
+#services .card .image .right {
+    margin-left: auto;
+}
+
+.card:hover {
+  background-color: #CDCDCD;
+}
+
+footer {
+  font-family: 'Roboto Slab', serif;
+  margin: auto;
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .column {
+    padding: 0px;
+  }
+}
